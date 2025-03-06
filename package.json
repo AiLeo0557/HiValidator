@@ -1,0 +1,23 @@
+{
+  "name": "hi-validator",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest",
+    "prepublish": "npm run build"
+  },
+  "dependencies": {
+    "hi-datatype-operation": "^1.0.2",
+    "tslib": "^2.6.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  }
+}
